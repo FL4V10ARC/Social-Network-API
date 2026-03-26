@@ -1,5 +1,11 @@
 # Social Network API - Spring Boot + MongoDB
 
+![Java](https://img.shields.io/badge/Java-17-orange?logo=java)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen?logo=springboot)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![Maven](https://img.shields.io/badge/Maven-Build-blue?logo=apachemaven)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
 REST API desenvolvida com **Java, Spring Boot e MongoDB** que simula uma pequena rede social.
 O projeto permite gerenciar **usuários, posts e comentários**, além de realizar **consultas por texto e intervalo de datas** utilizando Spring Data MongoDB.
 
@@ -9,14 +15,14 @@ Este projeto foi desenvolvido com o objetivo de praticar **arquitetura de APIs R
 
 # Tecnologias utilizadas
 
-* Java 17
-* Spring Boot
-* Spring Data MongoDB
-* Maven
-* MongoDB
-* REST API
-* DTO Pattern
-* Exception Handling
+- Java 17
+- Spring Boot
+- Spring Data MongoDB
+- Maven
+- MongoDB
+- REST API
+- DTO Pattern
+- Exception Handling
 
 ---
 
@@ -39,29 +45,29 @@ util
 
 **domain**
 
-* Contém as entidades principais do sistema
-* Exemplo: `User`, `Post`
+- Contém as entidades principais do sistema
+- Exemplo: `User`, `Post`
 
 **dto**
 
-* Objetos utilizados para transferência de dados
-* Evita exposição direta das entidades
+- Objetos utilizados para transferência de dados
+- Evita exposição direta das entidades
 
 **repository**
 
-* Interface de acesso ao banco utilizando **Spring Data MongoDB**
+- Interface de acesso ao banco utilizando **Spring Data MongoDB**
 
 **service**
 
-* Contém a lógica de negócio da aplicação
+- Contém a lógica de negócio da aplicação
 
 **resources (controllers)**
 
-* Responsável pelos endpoints da API REST
+- Responsável pelos endpoints da API REST
 
 **exception**
 
-* Tratamento global de exceções da aplicação
+- Tratamento global de exceções da aplicação
 
 ---
 
@@ -69,25 +75,25 @@ util
 
 ## User
 
-* id
-* name
-* email
-* posts
+- id
+- name
+- email
+- posts
 
 ## Post
 
-* id
-* date
-* title
-* body
-* author
-* comments
+- id
+- date
+- title
+- body
+- author
+- comments
 
 ## Comment
 
-* text
-* date
-* author
+- text
+- date
+- author
 
 ---
 
@@ -95,23 +101,23 @@ util
 
 ## Usuários
 
-* Criar usuário
-* Listar usuários
-* Buscar usuário por ID
-* Atualizar usuário
-* Deletar usuário
-* Listar posts de um usuário
+- Criar usuário
+- Listar usuários
+- Buscar usuário por ID
+- Atualizar usuário
+- Deletar usuário
+- Listar posts de um usuário
 
 ## Posts
 
-* Buscar post por ID
-* Buscar posts por título
-* Buscar posts por conteúdo
-* Buscar posts por intervalo de datas
+- Buscar post por ID
+- Buscar posts por título
+- Buscar posts por conteúdo
+- Buscar posts por intervalo de datas
 
 ## Comentários
 
-* Adicionar comentários em posts
+- Adicionar comentários em posts
 
 ---
 
@@ -212,22 +218,22 @@ http://localhost:8080/users
 
 Durante o desenvolvimento deste projeto foram aplicados conceitos importantes como:
 
-* Desenvolvimento de APIs REST com Spring Boot
-* Modelagem de dados com MongoDB
-* Uso de DTO para transferência de dados
-* Implementação de CRUD completo
-* Tratamento global de exceções
-* Consultas personalizadas com Spring Data MongoDB
+- Desenvolvimento de APIs REST com Spring Boot
+- Modelagem de dados com MongoDB
+- Uso de DTO para transferência de dados
+- Implementação de CRUD completo
+- Tratamento global de exceções
+- Consultas personalizadas com Spring Data MongoDB
 
 ---
 
 # Possíveis melhorias futuras
 
-* Documentação da API com Swagger
-* Autenticação com JWT
-* Testes unitários com JUnit e Mockito
-* Containerização com Docker
-* Deploy em Cloud (AWS ou Render)
+- Documentação da API com Swagger
+- Autenticação com JWT
+- Testes unitários com JUnit e Mockito
+- Containerização com Docker
+- Deploy em Cloud (AWS ou Render)
 
 ---
 
